@@ -1,0 +1,7 @@
+pod "MIBadgeButton", :path => "../MIBadgeButton.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
