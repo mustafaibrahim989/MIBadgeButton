@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2B34C418A11A7D0065F7C2 /* screentshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B34C318A11A7D0065F7C2 /* screentshot.png */; };
+		3D57AE70189FABBA001448D2 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D57AE6F189FABBA001448D2 /* 1.png */; };
+		3DD3CCD4189FA36800D4768A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD3CCD3189FA36800D4768A /* UIKit.framework */; };
+		3DD3CCD6189FA36800D4768A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD3CCD5189FA36800D4768A /* Foundation.framework */; };
+		3DD3CCD8189FA36800D4768A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD3CCD7189FA36800D4768A /* CoreGraphics.framework */; };
+		3DD3CCDE189FA36800D4768A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3CCDC189FA36800D4768A /* InfoPlist.strings */; };
+		3DD3CCE0189FA36800D4768A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3CCDF189FA36800D4768A /* main.m */; };
+		3DD3CCE4189FA36800D4768A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3CCE3189FA36800D4768A /* AppDelegate.m */; };
+		3DD3CCE6189FA36800D4768A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3CCE5189FA36800D4768A /* Default.png */; };
+		3DD3CCE8189FA36800D4768A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3CCE7189FA36800D4768A /* Default@2x.png */; };
+		3DD3CCEA189FA36800D4768A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3CCE9189FA36800D4768A /* Default-568h@2x.png */; };
+		3DD3CCED189FA36800D4768A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3CCEC189FA36800D4768A /* ViewController.m */; };
+		3DDB325F18A39BF600567E66 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3DDB325818A39BF600567E66 /* .gitkeep */; };
+		3DDB326018A39BF600567E66 /* MIBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDB325A18A39BF600567E66 /* MIBadgeButton.m */; };
+		3DDB326118A39BF600567E66 /* MIBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDB325C18A39BF600567E66 /* MIBadgeLabel.m */; };
+		3DDB326218A39BF600567E66 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3DDB325E18A39BF600567E66 /* .gitkeep */; };
+		3DE704ED18A2B6E80015560A /* screentshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE704EC18A2B6E80015560A /* screentshot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D2B34C318A11A7D0065F7C2 /* screentshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screentshot.png; sourceTree = "<group>"; };
+		3D57AE6F189FABBA001448D2 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3DD3CCD0189FA36800D4768A /* MIBadgeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIBadgeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD3CCD3189FA36800D4768A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DD3CCD5189FA36800D4768A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DD3CCD7189FA36800D4768A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DD3CCDB189FA36800D4768A /* MIBadgeButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MIBadgeButton-Info.plist"; sourceTree = "<group>"; };
+		3DD3CCDD189FA36800D4768A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DD3CCDF189FA36800D4768A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DD3CCE1189FA36800D4768A /* MIBadgeButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIBadgeButton-Prefix.pch"; sourceTree = "<group>"; };
+		3DD3CCE2189FA36800D4768A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DD3CCE3189FA36800D4768A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DD3CCE5189FA36800D4768A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3DD3CCE7189FA36800D4768A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3DD3CCE9189FA36800D4768A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3DD3CCEB189FA36800D4768A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DD3CCEC189FA36800D4768A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DDB325818A39BF600567E66 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3DDB325918A39BF600567E66 /* MIBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIBadgeButton.h; sourceTree = "<group>"; };
+		3DDB325A18A39BF600567E66 /* MIBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIBadgeButton.m; sourceTree = "<group>"; };
+		3DDB325B18A39BF600567E66 /* MIBadgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIBadgeLabel.h; sourceTree = "<group>"; };
+		3DDB325C18A39BF600567E66 /* MIBadgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIBadgeLabel.m; sourceTree = "<group>"; };
+		3DDB325E18A39BF600567E66 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3DE704EC18A2B6E80015560A /* screentshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screentshot.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD3CCCD189FA36800D4768A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD3CCD4189FA36800D4768A /* UIKit.framework in Frameworks */,
+				3DD3CCD6189FA36800D4768A /* Foundation.framework in Frameworks */,
+				3DD3CCD8189FA36800D4768A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD3CCC7189FA36800D4768A = {
+			isa = PBXGroup;
+			children = (
+				3D2B34C318A11A7D0065F7C2 /* screentshot.png */,
+				3DE704EC18A2B6E80015560A /* screentshot.png */,
+				3D57AE6F189FABBA001448D2 /* 1.png */,
+				3DDB325618A39BF600567E66 /* Classes */,
+				3DD3CCD9189FA36800D4768A /* MIBadgeButton */,
+				3DD3CCD2189FA36800D4768A /* Frameworks */,
+				3DD3CCD1189FA36800D4768A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD3CCD1189FA36800D4768A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3CCD0189FA36800D4768A /* MIBadgeButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD3CCD2189FA36800D4768A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3CCD3189FA36800D4768A /* UIKit.framework */,
+				3DD3CCD5189FA36800D4768A /* Foundation.framework */,
+				3DD3CCD7189FA36800D4768A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DD3CCD9189FA36800D4768A /* MIBadgeButton */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3CCE2189FA36800D4768A /* AppDelegate.h */,
+				3DD3CCE3189FA36800D4768A /* AppDelegate.m */,
+				3DD3CCEB189FA36800D4768A /* ViewController.h */,
+				3DD3CCEC189FA36800D4768A /* ViewController.m */,
+				3DD3CCDA189FA36800D4768A /* Supporting Files */,
+			);
+			path = MIBadgeButton;
+			sourceTree = "<group>";
+		};
+		3DD3CCDA189FA36800D4768A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DD3CCDB189FA36800D4768A /* MIBadgeButton-Info.plist */,
+				3DD3CCDC189FA36800D4768A /* InfoPlist.strings */,
+				3DD3CCDF189FA36800D4768A /* main.m */,
+				3DD3CCE1189FA36800D4768A /* MIBadgeButton-Prefix.pch */,
+				3DD3CCE5189FA36800D4768A /* Default.png */,
+				3DD3CCE7189FA36800D4768A /* Default@2x.png */,
+				3DD3CCE9189FA36800D4768A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DDB325618A39BF600567E66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3DDB325718A39BF600567E66 /* ios */,
+				3DDB325D18A39BF600567E66 /* osx */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		3DDB325718A39BF600567E66 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3DDB325818A39BF600567E66 /* .gitkeep */,
+				3DDB325918A39BF600567E66 /* MIBadgeButton.h */,
+				3DDB325A18A39BF600567E66 /* MIBadgeButton.m */,
+				3DDB325B18A39BF600567E66 /* MIBadgeLabel.h */,
+				3DDB325C18A39BF600567E66 /* MIBadgeLabel.m */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		3DDB325D18A39BF600567E66 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				3DDB325E18A39BF600567E66 /* .gitkeep */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD3CCCF189FA36800D4768A /* MIBadgeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD3CCF3189FA36800D4768A /* Build configuration list for PBXNativeTarget "MIBadgeButton" */;
+			buildPhases = (
+				3DD3CCCC189FA36800D4768A /* Sources */,
+				3DD3CCCD189FA36800D4768A /* Frameworks */,
+				3DD3CCCE189FA36800D4768A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIBadgeButton;
+			productName = MIBadgeButton;
+			productReference = 3DD3CCD0189FA36800D4768A /* MIBadgeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD3CCC8189FA36800D4768A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mustafa Ibrahim";
+			};
+			buildConfigurationList = 3DD3CCCB189FA36800D4768A /* Build configuration list for PBXProject "MIBadgeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DD3CCC7189FA36800D4768A;
+			productRefGroup = 3DD3CCD1189FA36800D4768A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD3CCCF189FA36800D4768A /* MIBadgeButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD3CCCE189FA36800D4768A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD3CCDE189FA36800D4768A /* InfoPlist.strings in Resources */,
+				3DD3CCE6189FA36800D4768A /* Default.png in Resources */,
+				3DD3CCE8189FA36800D4768A /* Default@2x.png in Resources */,
+				3DDB326218A39BF600567E66 /* .gitkeep in Resources */,
+				3D2B34C418A11A7D0065F7C2 /* screentshot.png in Resources */,
+				3DE704ED18A2B6E80015560A /* screentshot.png in Resources */,
+				3DD3CCEA189FA36800D4768A /* Default-568h@2x.png in Resources */,
+				3D57AE70189FABBA001448D2 /* 1.png in Resources */,
+				3DDB325F18A39BF600567E66 /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD3CCCC189FA36800D4768A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD3CCE0189FA36800D4768A /* main.m in Sources */,
+				3DD3CCE4189FA36800D4768A /* AppDelegate.m in Sources */,
+				3DD3CCED189FA36800D4768A /* ViewController.m in Sources */,
+				3DDB326118A39BF600567E66 /* MIBadgeLabel.m in Sources */,
+				3DDB326018A39BF600567E66 /* MIBadgeButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DD3CCDC189FA36800D4768A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD3CCDD189FA36800D4768A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DD3CCF1189FA36800D4768A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DD3CCF2189FA36800D4768A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DD3CCF4189FA36800D4768A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIBadgeButton/MIBadgeButton-Prefix.pch";
+				INFOPLIST_FILE = "MIBadgeButton/MIBadgeButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DD3CCF5189FA36800D4768A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIBadgeButton/MIBadgeButton-Prefix.pch";
+				INFOPLIST_FILE = "MIBadgeButton/MIBadgeButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD3CCCB189FA36800D4768A /* Build configuration list for PBXProject "MIBadgeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD3CCF1189FA36800D4768A /* Debug */,
+				3DD3CCF2189FA36800D4768A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD3CCF3189FA36800D4768A /* Build configuration list for PBXNativeTarget "MIBadgeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD3CCF4189FA36800D4768A /* Debug */,
+				3DD3CCF5189FA36800D4768A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD3CCC8189FA36800D4768A /* Project object */;
+}
