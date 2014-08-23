@@ -81,7 +81,7 @@
         else
             badgeLabel = [[MIBadgeLabel alloc] init];
     }
-    
+    [badgeLabel setClipsToBounds:YES];
     [badgeLabel setText:string];
     CGSize badgeSize = [badgeLabel sizeThatFits:CGSizeMake(320, FLT_MAX)];
     badgeSize.width = badgeSize.width < 20 ? 25 : badgeSize.width + 5;

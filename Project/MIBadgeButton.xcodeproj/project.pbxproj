@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D2B34C418A11A7D0065F7C2 /* screentshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B34C318A11A7D0065F7C2 /* screentshot.png */; };
-		3D57AE70189FABBA001448D2 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D57AE6F189FABBA001448D2 /* 1.png */; };
+		3D1B9B9D19A9492300039CDD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B9B9A19A9492300039CDD /* MainStoryboard.storyboard */; };
+		3D1B9B9E19A9492300039CDD /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9B9C19A9492300039CDD /* CustomCell.m */; };
+		3D1B9BA019A9493700039CDD /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B9B9F19A9493700039CDD /* facebook.png */; };
+		3D1B9BA219A9495F00039CDD /* screentshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B9BA119A9495F00039CDD /* screentshot.png */; };
 		3DD3CCD4189FA36800D4768A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD3CCD3189FA36800D4768A /* UIKit.framework */; };
 		3DD3CCD6189FA36800D4768A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD3CCD5189FA36800D4768A /* Foundation.framework */; };
 		3DD3CCD8189FA36800D4768A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD3CCD7189FA36800D4768A /* CoreGraphics.framework */; };
@@ -23,12 +25,14 @@
 		3DDB326018A39BF600567E66 /* MIBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDB325A18A39BF600567E66 /* MIBadgeButton.m */; };
 		3DDB326118A39BF600567E66 /* MIBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDB325C18A39BF600567E66 /* MIBadgeLabel.m */; };
 		3DDB326218A39BF600567E66 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3DDB325E18A39BF600567E66 /* .gitkeep */; };
-		3DE704ED18A2B6E80015560A /* screentshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE704EC18A2B6E80015560A /* screentshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D2B34C318A11A7D0065F7C2 /* screentshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screentshot.png; sourceTree = "<group>"; };
-		3D57AE6F189FABBA001448D2 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3D1B9B9A19A9492300039CDD /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3D1B9B9B19A9492300039CDD /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		3D1B9B9C19A9492300039CDD /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		3D1B9B9F19A9493700039CDD /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		3D1B9BA119A9495F00039CDD /* screentshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screentshot.png; sourceTree = "<group>"; };
 		3DD3CCD0189FA36800D4768A /* MIBadgeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIBadgeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD3CCD3189FA36800D4768A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3DD3CCD5189FA36800D4768A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,7 +54,6 @@
 		3DDB325B18A39BF600567E66 /* MIBadgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIBadgeLabel.h; sourceTree = "<group>"; };
 		3DDB325C18A39BF600567E66 /* MIBadgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIBadgeLabel.m; sourceTree = "<group>"; };
 		3DDB325E18A39BF600567E66 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		3DE704EC18A2B6E80015560A /* screentshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screentshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +73,8 @@
 		3DD3CCC7189FA36800D4768A = {
 			isa = PBXGroup;
 			children = (
-				3D2B34C318A11A7D0065F7C2 /* screentshot.png */,
-				3DE704EC18A2B6E80015560A /* screentshot.png */,
-				3D57AE6F189FABBA001448D2 /* 1.png */,
+				3D1B9BA119A9495F00039CDD /* screentshot.png */,
+				3D1B9B9F19A9493700039CDD /* facebook.png */,
 				3DDB325618A39BF600567E66 /* Classes */,
 				3DD3CCD9189FA36800D4768A /* MIBadgeButton */,
 				3DD3CCD2189FA36800D4768A /* Frameworks */,
@@ -105,6 +107,9 @@
 				3DD3CCE3189FA36800D4768A /* AppDelegate.m */,
 				3DD3CCEB189FA36800D4768A /* ViewController.h */,
 				3DD3CCEC189FA36800D4768A /* ViewController.m */,
+				3D1B9B9A19A9492300039CDD /* MainStoryboard.storyboard */,
+				3D1B9B9B19A9492300039CDD /* CustomCell.h */,
+				3D1B9B9C19A9492300039CDD /* CustomCell.m */,
 				3DD3CCDA189FA36800D4768A /* Supporting Files */,
 			);
 			path = MIBadgeButton;
@@ -208,11 +213,11 @@
 				3DD3CCDE189FA36800D4768A /* InfoPlist.strings in Resources */,
 				3DD3CCE6189FA36800D4768A /* Default.png in Resources */,
 				3DD3CCE8189FA36800D4768A /* Default@2x.png in Resources */,
+				3D1B9BA019A9493700039CDD /* facebook.png in Resources */,
 				3DDB326218A39BF600567E66 /* .gitkeep in Resources */,
-				3D2B34C418A11A7D0065F7C2 /* screentshot.png in Resources */,
-				3DE704ED18A2B6E80015560A /* screentshot.png in Resources */,
+				3D1B9BA219A9495F00039CDD /* screentshot.png in Resources */,
+				3D1B9B9D19A9492300039CDD /* MainStoryboard.storyboard in Resources */,
 				3DD3CCEA189FA36800D4768A /* Default-568h@2x.png in Resources */,
-				3D57AE70189FABBA001448D2 /* 1.png in Resources */,
 				3DDB325F18A39BF600567E66 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +231,7 @@
 			files = (
 				3DD3CCE0189FA36800D4768A /* main.m in Sources */,
 				3DD3CCE4189FA36800D4768A /* AppDelegate.m in Sources */,
+				3D1B9B9E19A9492300039CDD /* CustomCell.m in Sources */,
 				3DD3CCED189FA36800D4768A /* ViewController.m in Sources */,
 				3DDB326118A39BF600567E66 /* MIBadgeLabel.m in Sources */,
 				3DDB326018A39BF600567E66 /* MIBadgeButton.m in Sources */,

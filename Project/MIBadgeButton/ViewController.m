@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MIBadgeButton.h"
+#import "CustomCell.h"
 
 @interface ViewController ()
 
@@ -15,29 +16,42 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.navigationItem.title = @"MIBadgeButton";
     
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    
-    MIBadgeButton *btn1 = [MIBadgeButton buttonWithType:UIButtonTypeCustom];
-    [btn1 setFrame:CGRectMake(100, 150, 64, 30)];
-    [btn1 setTitle:@"test" forState:UIControlStateNormal];
-    [btn1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+}
+
+- (void) configureButton:(MIBadgeButton *) button withBadge:(NSString *) badgeString {
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     // optional to change the default position of the badge
-    [btn1 setBadgeEdgeInsets:UIEdgeInsetsMake(12, 0, 0, 12)];
-    [btn1 setBadgeString:@"244"];
-    [self.view addSubview:btn1];
+    [button setBadgeEdgeInsets:UIEdgeInsetsMake(8, 5, 0, 8)];
+    [button setBadgeString:badgeString];
+}
+
+- (void) configureCell:(CustomCell *) cell AtIndexPath:(NSIndexPath *)indexPath {
+    [cell.cellLabel setText:[NSString stringWithFormat:@"Row %i", indexPath.row]];
+    [self configureButton:cell.facebookButton withBadge:@"120"];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    CustomCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
-    MIBadgeButton *btn2 = [MIBadgeButton buttonWithType:UIButtonTypeRoundedRect];
-    [btn2 setFrame:CGRectMake(100, 250, 64, 64)];
-    [btn2 setImage:[UIImage imageNamed:@"1"] forState:UIControlStateNormal];
-    [btn2 setBadgeString:@"21"];
-    [self.view addSubview:btn2];
+    [self configureCell:cell AtIndexPath:indexPath];
+    
+    return cell;
+}
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
 }
 
 
