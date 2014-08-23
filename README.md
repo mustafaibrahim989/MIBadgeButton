@@ -3,6 +3,9 @@
 [![Version](http://cocoapod-badges.herokuapp.com/v/MIBadgeButton/badge.png)](http://cocoadocs.org/docsets/MIBadgeButton)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/MIBadgeButton/badge.png)](http://cocoadocs.org/docsets/MIBadgeButton)
 
+
+MIBadgeButton is badge button with high UITableView/UICollectionView performance.
+
 ## Usage
 
 To run the example project; clone the repo, and run `pod install` from the Project directory first.
