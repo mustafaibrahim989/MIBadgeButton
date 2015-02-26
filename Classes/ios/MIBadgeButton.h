@@ -11,5 +11,8 @@
 @interface MIBadgeButton : UIButton
 
 @property (nonatomic, strong) NSString *badgeString;
+@property (nonatomic, strong) UIColor *badgeTextColor;
+@property (nonatomic, strong) UIColor *badgeBackgroundColor;
 @property (nonatomic) UIEdgeInsets badgeEdgeInsets;
+
 @end
