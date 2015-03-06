@@ -38,6 +38,16 @@
     [self setupBadgeViewWithString:_badgeString];
 }
 
+-(void)setBadgeTextColor:(UIColor *)badgeTextColor {
+    self->_badgeTextColor = badgeTextColor;
+    [self setupBadgeStyle];
+}
+
+-(void)setBadgeBackgroundColor:(UIColor *)color {
+    self->_badgeBackgroundColor = color;
+    [self setupBadgeStyle];
+}
+
 #pragma mark - Initializers
 
 - (id) init
@@ -69,6 +79,8 @@
     if (self == [super initWithFrame:frame]) {
         self.badgeEdgeInsets = badgeInsets;
         [self setupBadgeViewWithString:string];
+        self.badgeTextColor = [UIColor whiteColor];
+        self.badgeBackgroundColor = [UIColor redColor];
     }
     return self;
 }
@@ -99,8 +111,8 @@
 - (void) setupBadgeStyle
 {
     [badgeLabel setTextAlignment:NSTextAlignmentCenter];
-    [badgeLabel setBackgroundColor:[UIColor redColor]];
-    [badgeLabel setTextColor:[UIColor whiteColor]];
+    [badgeLabel setBackgroundColor:self.badgeBackgroundColor];
+    [badgeLabel setTextColor:self.badgeTextColor];
     badgeLabel.layer.cornerRadius = 10.0f;
 }
 
