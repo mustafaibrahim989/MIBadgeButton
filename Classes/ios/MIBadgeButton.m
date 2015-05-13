@@ -88,9 +88,9 @@
 - (void) setupBadgeViewWithString:(NSString *)string
 {
     if(!badgeLabel) {
-        if(IS_OS_7_OR_LATER)
-            badgeLabel = [[UILabel alloc] init];
-        else
+//        if(IS_OS_7_OR_LATER)
+//            badgeLabel = [[UILabel alloc] init];
+//        else
             badgeLabel = [[MIBadgeLabel alloc] init];
     }
     [badgeLabel setClipsToBounds:YES];
