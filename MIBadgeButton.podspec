@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MIBadgeButton"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.license      =  {:type => "MIT"}
   s.homepage     = "https://github.com/mustafaibrahim989/MIBadgeButton"
   s.authors      =  {"Mustafa Ibrahim" => "mustafa_ibrahim989@live.com"}
