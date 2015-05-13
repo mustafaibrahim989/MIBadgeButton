@@ -88,20 +88,22 @@
 - (void) setupBadgeViewWithString:(NSString *)string
 {
     if(!badgeLabel) {
-//        if(IS_OS_7_OR_LATER)
-//            badgeLabel = [[UILabel alloc] init];
-//        else
+        if(IS_OS_7_OR_LATER)
+            badgeLabel = [[UILabel alloc] init];
+        else
             badgeLabel = [[MIBadgeLabel alloc] init];
     }
     [badgeLabel setClipsToBounds:YES];
     [badgeLabel setText:string];
+    self.badgeTextColor = [UIColor whiteColor];
+    [badgeLabel setFont:[UIFont systemFontOfSize:13]];
     CGSize badgeSize = [badgeLabel sizeThatFits:CGSizeMake(320, FLT_MAX)];
     badgeSize.width = badgeSize.width < 20 ? 25 : badgeSize.width + 5;
 
     int vertical = self.badgeEdgeInsets.top - self.badgeEdgeInsets.bottom;
     int horizontal = self.badgeEdgeInsets.left - self.badgeEdgeInsets.right;
     
-    [badgeLabel setFrame:CGRectMake(self.bounds.size.width - 5 + horizontal, -(badgeSize.height / 2) - 5 + vertical, badgeSize.width, badgeSize.height)];
+    [badgeLabel setFrame:CGRectMake(self.bounds.size.width - 10 + horizontal, -(badgeSize.height / 2) - 10 + vertical, badgeSize.width,  badgeSize.width > 25 ? badgeSize.height : badgeSize.width)];
     [self setupBadgeStyle];
     [self addSubview:badgeLabel];
     
@@ -113,7 +115,7 @@
     [badgeLabel setTextAlignment:NSTextAlignmentCenter];
     [badgeLabel setBackgroundColor:self.badgeBackgroundColor];
     [badgeLabel setTextColor:self.badgeTextColor];
-    badgeLabel.layer.cornerRadius = 10.0f;
+    badgeLabel.layer.cornerRadius = badgeLabel.bounds.size.width > 25 ? 8 : badgeLabel.bounds.size.width / 2;
 }
 
 @end
