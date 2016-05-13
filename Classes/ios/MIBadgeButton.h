@@ -14,5 +14,6 @@
 @property (nonatomic, strong) UIColor *badgeTextColor;
 @property (nonatomic, strong) UIColor *badgeBackgroundColor;
 @property (nonatomic) UIEdgeInsets badgeEdgeInsets;
+@property (nonatomic) BOOL hideWhenZero;
 
 @end

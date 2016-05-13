@@ -108,6 +108,10 @@
     [self addSubview:badgeLabel];
     
     badgeLabel.hidden = string ? NO : YES;
+    
+    if (self.hideWhenZero) {
+        badgeLabel.hidden = [string isEqualToString:@"0"] ? YES : NO;
+    }
 }
 
 - (void) setupBadgeStyle
