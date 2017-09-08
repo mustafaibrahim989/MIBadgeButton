@@ -36,7 +36,7 @@ Set EdgeInsets to change the default position of the badge (Optional)
 
 ## Author
 
-Mustafa Ibrahim, mibrahim@youxel.com
+Mustafa Ibrahim, mustafa.ibrahim989@gmail.com
 
 Notes
 ============
